@@ -1,0 +1,17 @@
+h1 {
+    color: rgb(8, 56, 56);
+}
+ nav ul {
+                list-style: none;
+                padding: 0;
+            }
+nav ul li {
+                display: inline;
+                margin: 0 15px;
+            }
+
+            header {
+                background-color: #e2c4e1;
+                text-align: center;
+                padding: 20px;
+            }
