@@ -79,15 +79,17 @@
             div {
                 display: flex; /*contenedor flexible horizontak*/
                 flex:1; /* ocupan el mismo espacio */
-                text-align: center;
+                text-align: justify;
                 margin-left: 10px;
                 margin-right: 10px;
+                gap: 20px;
             }
             table {
                 width: 450px;
                 height: 250px;
                 border-color: #5e2c5d;
                 border-collapse: collapse; /*para que se junten*/
+                text-align: center;
             }
             th {
                 background-color: #6a1f69;
