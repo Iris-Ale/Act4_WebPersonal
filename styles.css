@@ -1,17 +1,85 @@
-h1 {
-    color: rgb(8, 56, 56);
-}
- nav ul {
+            body {
+                background-color: #eab1e9;
+                font-family:'Times New Roman', Times, serif;
+                margin: 0;
+                padding: 0;
+                line-height: 1.5;
+            }
+
+            h1,h2,h3,h4 {
+                color: rgb(148, 50, 125);
+            }
+
+            header {
+                background-image: url('img/fondo5.jpg');
+                background-color: #e79de5;
+                background-repeat: no-repeat;
+                background-size:cover;
+                background-position-y:10%;
+                text-align: center;
+                padding: 20px;
+            }
+
+            header h1 {
+                color: #6a1f69;
+            }
+
+            nav ul {
                 list-style: none;
                 padding: 0;
             }
-nav ul li {
+
+            nav ul li {
                 display: inline;
                 margin: 0 15px;
             }
 
-            header {
-                background-color: #e2c4e1;
-                text-align: center;
+            nav ul li a{
+                text-decoration: none;
+                color: white;
+                font-weight: bold;
+            }
+
+            nav ul li a:hover{
+                color:#6a1f69
+            }
+            
+            main {
                 padding: 20px;
+            }
+
+            section, article, aside {
+                background-color: #e79de5;
+                border-radius: 15px;
+                padding: 20px;
+                margin-bottom: 20px;
+                margin-left: 80px;
+                margin-right: 80px;
+                box-shadow: 0 0 4px rgba(106, 31, 105,0.5);
+            }
+
+            aside {
+                background-color: #c77bc4;
+                border-left: 4px solid #6a1f69;
+            }
+
+            footer {
+                background-color: rgb(99, 49, 112);
+                text-align: center;
+                color: white;
+                padding: 10px;
+            }
+
+            .fab {
+                color: white;
+                font-size: 0.8cm;
+                display: inline;
+                padding: 10px;
+            }
+            div {
+                flex: 1;
+                text-align: center;
+                align-items: center;
+                display: flex;
+                gap: 20px;
             }
