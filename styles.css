@@ -4,6 +4,7 @@
                 margin: 0;
                 padding: 0;
                 line-height: 1.5;
+                text-align: justify;
             }
 
             h1,h2,h3,h4 {
@@ -53,8 +54,8 @@
                 border-radius: 15px;
                 padding: 20px;
                 margin-bottom: 20px;
-                margin-left: 80px;
-                margin-right: 80px;
+                margin-left: 120px;
+                margin-right: 120px;
                 box-shadow: 0 0 4px rgba(106, 31, 105,0.5);
             }
 
@@ -82,4 +83,20 @@
                 align-items: center;
                 display: flex;
                 gap: 20px;
+
+            }
+            table {
+                width: 80%;
+                border-color: #6a1f69;
+                border-collapse: collapse; /*para que se junten*/
+            }
+            
+            th {
+                background-color: #6a1f69;
+                color: white;
+            }
+
+            td {
+                background-color: #d88dd5;
+                color: rgb(234, 236, 237);
             }
