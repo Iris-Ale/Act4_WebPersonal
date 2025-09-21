@@ -70,7 +70,6 @@
                 color: white;
                 padding: 10px;
             }
-
             .fab {
                 color: white;
                 font-size: 0.8cm;
@@ -78,19 +77,18 @@
                 padding: 10px;
             }
             div {
-                flex: 1;
+                display: flex; /*contenedor flexible horizontak*/
+                flex:1; /* ocupan el mismo espacio */
                 text-align: center;
-                align-items: center;
-                display: flex;
-                gap: 20px;
-
+                margin-left: 10px;
+                margin-right: 10px;
             }
             table {
-                width: 80%;
-                border-color: #6a1f69;
+                width: 450px;
+                height: 250px;
+                border-color: #5e2c5d;
                 border-collapse: collapse; /*para que se junten*/
             }
-            
             th {
                 background-color: #6a1f69;
                 color: white;
