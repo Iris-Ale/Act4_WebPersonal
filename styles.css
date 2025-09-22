@@ -12,11 +12,11 @@
             }
 
             header {
-                background-image: url('img/fondo5.jpg');
+                background-image: url('img/fondo3.jpg');
                 background-color: #e79de5;
                 background-repeat: no-repeat;
                 background-size:cover;
-                background-position-y:10%;
+                background-position-y:20%;
                 text-align: center;
                 padding: 20px;
             }
