@@ -82,7 +82,7 @@
                 text-align: justify;
                 margin-left: 10px;
                 margin-right: 10px;
-                gap: 20px;
+                gap: 20px; /*espacio elementos*/
             }
             table {
                 width: 450px;
@@ -99,4 +99,9 @@
             td {
                 background-color: #d88dd5;
                 color: rgb(234, 236, 237);
+            }
+            iframe {
+                display: block;
+                margin-left: auto;
+                margin-right: auto;
             }
